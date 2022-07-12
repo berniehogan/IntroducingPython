@@ -1,0 +1,106 @@
+\documentclass{book}
+
+\input{latex_preamble}
+\usepackage[style=apa,backend=biber]{biblatex}
+\bibliography{mybib}
+\usepackage{scalerel}
+\usepackage[firstpageonly=true,scale=.3,text=draft -- please do not circulate]{draftwatermark}
+
+\newenvironment{centerverbatim}{%
+  \par
+  \centering
+  \varwidth{\linewidth}%
+  \verbatim
+}{%
+  \endverbatim
+  \endvarwidth
+  \par
+}
+
+\begin{document}
+
+
+\title{Introducing Python}
+\author{Bernie Hogan}
+\date{\today}
+
+\maketitle
+
+\pagestyle{empty}
+\begin{centerverbatim}
+Introducing Python
+Intro ucing Python
+ ntro ucing Python
+ ntro ucing Pyt on
+ ntro ucing Pyt o
+ ntro ucing  yt o
+ ntro uc ng  yt o
+  tro uc ng  yt o
+  tro  c ng  yt o
+  tro  c n   yt o
+  tr   c n   yt o
+  tr   c     yt o
+  tr   c     y  o
+  t    c     y  o
+  t          y  o
+  t             o
+                o
+\end{centerverbatim}
+
+
+\tableofcontents
+
+\frontmatter
+
+\chapter{Prologue: Welcome to Python}
+\label{ch:prologue}
+\input{Ch.00.Prologue}
+
+\mainmatter
+\chapter{Introducing Python and Jupyter}
+\label{ch:intro}
+\input{Ch.01.IntroducingPython}
+
+\chapter{Primitive Data Types}
+\label{ch:datatypes}
+\input{Ch.02.DataTypes}
+
+\chapter{Collections}
+\label{ch:collections}
+\input{Ch.03.Collections}
+
+\chapter{Controlling Flow: Conditionals, Loops, and Errors}
+\label{ch:flow}
+\input{Ch.04.ConditionalsLoopsErrors}
+
+\chapter{Functions and classes}
+\label{ch:functions}
+\input{Ch.05.FunctionsClasses}
+
+\chapter{The File System, Path, and Running Scripts}
+\label{ch:files}
+\input{Ch.06.TheFileSystem}
+
+\chapter{Where to next?}
+\label{ch:next}
+\input{Ch.07.WhereToNext}
+
+\appendix
+
+\chapter{Short Questions}
+\label{ap:short}
+\input{Ch.A01.ShortQuestions}
+
+\chapter{Short Questions with Example Answers}
+\label{ap:answers}
+\input{Ch.A02.ShortAnswers}
+
+\chapter{Longer Project Ideas}
+\label{ap:longer}
+\input{Ch.A03.LongerIdeas}
+
+\backmatter
+
+% \printbibliography
+
+\end{document}
