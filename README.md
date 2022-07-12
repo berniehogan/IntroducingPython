@@ -2,8 +2,8 @@
 
 An introductory course on Python Programming from Bernie Hogan at the Oxford Internet Institute. This course goes through some of the basics of Python using Jupyter Lab. The course can be considered as a printed book (PDF) or as a series of Jupyter Lab workbooks. The workbooks will allow you to run the code yourself and tinker with it. These can be run on your own machine by cloning this repository to your desktop. You can also save the raw files as `*.ipynb` (such as `Ch.00.Prologue.ipynb`) and run them locally. You can alternatively run them online using the buttons at the top of each file that signal "Run in Colab" or "launch Binder", like the following:  
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/berniehogan/introducingpython/master?filepath=notebooks%2FCh.00.Prologue.ipynb)
-[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berniehogan/introducingpython/blob/master/notebooks/Ch.00.Prologue.ipynb)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/berniehogan/introducingpython/main?filepath=notebooks%2FCh.00.Prologue.ipynb)
+[![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/berniehogan/introducingpython/blob/main/notebooks/Ch.00.Prologue.ipynb)
 
 ## Table of contents: 
 - Prologue. A short introduction and welcome. 
