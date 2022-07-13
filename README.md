@@ -18,7 +18,7 @@ Jupyter Lab is covered in Chapter 1. So if you do not have it installed, you can
 - **Chapter 4**. Conditionals, loops, and errors: How to change the flow of a program;
 - **Chapter 5**. Functions and object-oriented programming: Using abstraction to limit redundancy;
 - **Chpater 6**. The file system;
-- **Exercises**. Three exercises with some tips in a long answer sheet. 
+- **Exercises**. Short exercises, answers to the short exerciess, and some longer exercises which might not have a specific "goal" but are more creative.
 
 This course does not have a large number of exercises. Instead, there are at the end a small number of projects that you might want to complete in order to get a feel for the material and show some of your creativity along the way. This book runs through pretty well-worn territory and despite its inclusion in a social science degree, there is not much social science here. Instead, these are the basic grammar of Python that you would use regardless of your eventual destination. This should cover a lot of the same material as other Introducing Python courses broadly. That said, I hope my pacing, language, and resources bring some value add to this.  
 
