@@ -49,6 +49,6 @@ def main(nbconvert=True,texclean=True,makelatex=True,jobname="book"):
 if __name__ == "__main__":
     main(nbconvert=True,
          texclean=True,
-         makelatex=True,
+https://github.com/berniehogan/fsstds         makelatex=True,
          jobname = "IntroducingPython")
  
