@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 .DS_Store
 .DS_Store
+latex/tex/book.tex
