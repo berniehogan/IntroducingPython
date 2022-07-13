@@ -1,5 +1,5 @@
 # User defined 
-*.DS_Store
+.DS_Store
 /latex/tex/*
 
 # Byte-compiled / optimized / DLL files
@@ -131,5 +131,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-.DS_Store
-latex/tex/book.tex
