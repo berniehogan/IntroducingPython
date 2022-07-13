@@ -132,5 +132,4 @@ dmypy.json
 # Pyre type checker
 .pyre/
 .DS_Store
-.DS_Store
 latex/tex/book.tex
